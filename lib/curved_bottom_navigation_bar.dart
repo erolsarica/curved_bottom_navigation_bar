@@ -36,7 +36,7 @@ class _CurvedNavigationState extends State<CurvedNavigation> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Text('Selected page: $_page', style: const TextStyle(fontSize: 30),),
+              Text('Selected page: $_pageNumber', style: const TextStyle(fontSize: 30),),
             ],
           ),
         ),
