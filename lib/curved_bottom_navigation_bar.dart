@@ -9,7 +9,7 @@ class CurvedNavigation extends StatefulWidget {
 }
 
 class _CurvedNavigationState extends State<CurvedNavigation> {
-  int _page = 0;
+  int _pageNumber = 0;
 
   @override
   Widget build(BuildContext context) {
