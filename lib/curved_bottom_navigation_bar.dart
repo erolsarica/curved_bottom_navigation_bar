@@ -26,7 +26,7 @@ class _CurvedNavigationState extends State<CurvedNavigation> {
         ],
         onTap: (index) {
           setState(() {
-            _page = index;
+            _pageNumber = index;
           });
         },
       ),
